@@ -5,6 +5,7 @@ import { client } from '@/lib/sanity/client';
 import { urlForImage } from '@/lib/sanity/image';
 import { packagesQuery } from '@/lib/sanity/queries';
 import type { Package } from '@/lib/sanity/types';
+import { getSanityStudioUrl } from '@/lib/sanity/studio-url';
 
 /**
  * Caching Strategy: ISR with 60-second revalidation
@@ -149,12 +150,14 @@ export default async function Packages() {
           {packages.length === 0 ? (
             <div className="text-center py-12">
               <p className="text-gray-600 text-lg">No packages found. Please add packages in Sanity Studio.</p>
-              <Link
-                href="/studio"
+              <a
+                href={getSanityStudioUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-4 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
               >
                 Open Sanity Studio
-              </Link>
+              </a>
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
