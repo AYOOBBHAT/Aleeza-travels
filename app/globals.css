@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Mobile-first responsive text */
+  .text-responsive {
+    @apply text-base sm:text-lg md:text-xl;
+  }
+  
+  /* Container padding utilities */
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Focus visible styles for accessibility */
+  .focus-visible-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2;
+  }
+}
+
