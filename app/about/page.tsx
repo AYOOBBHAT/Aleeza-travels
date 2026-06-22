@@ -120,7 +120,7 @@ export default function About() {
       addressCountry: 'IN',
       postalCode: '190001',
     },
-    telephone: '+919149792237',
+    telephone: '+918899470609',
     email: 'deltadawood963@gmail.com',
     openingHours: 'Mo-Su 00:00-23:59',
     priceRange: '$$',

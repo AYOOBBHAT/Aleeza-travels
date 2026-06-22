@@ -43,3 +43,4 @@ sanity/.env
 # sanity
 .sanity/
 sanity/dist/
+.env*

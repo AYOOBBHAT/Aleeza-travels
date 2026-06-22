@@ -2,7 +2,7 @@
 
 import { useState, FormEvent } from 'react';
 
-const WHATSAPP_NUMBER = '919149792237'; // Your WhatsApp number without + sign
+const WHATSAPP_NUMBER = '918899470609'; // Your WhatsApp number without + sign
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({

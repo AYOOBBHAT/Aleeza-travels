@@ -11,7 +11,7 @@ const contactPageSchema = {
   mainEntity: {
     '@type': 'TravelAgency',
     name: 'Sadasangh Holidays',
-    telephone: '+919149792237',
+    telephone: '+918899470609',
     email: 'deltadawood963@gmail.com',
     address: {
       '@type': 'PostalAddress',
@@ -31,7 +31,7 @@ const contactPageSchema = {
 
 export const metadata: Metadata = {
   title: 'Contact Us - Kashmir Travel Agency | Sadasangh Holidays | 24/7 Support',
-  description: 'Contact Sadasangh Holidays - Kashmir\'s trusted travel agency. Call +919149792237, email deltadawood963@gmail.com, or visit us in Dallake, Srinagar. Available 24/7 for travel inquiries, custom Kashmir packages, and bookings.',
+  description: 'Contact Sadasangh Holidays - Kashmir\'s trusted travel agency. Call +918899470609, email deltadawood963@gmail.com, or visit us in Dallake, Srinagar. Available 24/7 for travel inquiries, custom Kashmir packages, and bookings.',
   keywords: [
     'contact Kashmir travel agency',
     'Sadasangh Holidays contact',
@@ -88,7 +88,7 @@ export const metadata: Metadata = {
 const contactInfo = [
   {
     title: 'Phone',
-    content: '+919149792237',
+    content: '+918899470609',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -181,7 +181,7 @@ export default function Contact() {
                 <h3 className="font-semibold text-gray-900 mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="https://wa.me/919149792237"
+                    href="https://wa.me/918899470609"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center text-white hover:bg-green-600 transition-colors"
@@ -192,7 +192,7 @@ export default function Contact() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.instagram.com/sadasanghholidays"
+                    href="https://www.instagram.com/sadasangholidays?igsh=djM4dmZsMmVyM2ln"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center text-white hover:from-purple-600 hover:to-pink-600 transition-colors"

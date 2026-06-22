@@ -19,7 +19,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://wa.me/919149792237" 
+                href="https://wa.me/918899470609" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-green-400 transition-colors" 
@@ -30,7 +30,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://www.instagram.com/sadasanghholidays" 
+                href="https://www.instagram.com/sadasangholidays?igsh=djM4dmZsMmVyM2ln" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-400 transition-colors" 

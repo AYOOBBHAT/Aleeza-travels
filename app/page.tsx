@@ -80,7 +80,7 @@ export default function Home() {
     },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+919149792237',
+      telephone: '+918899470609',
       contactType: 'Customer Service',
       areaServed: 'IN',
       availableLanguage: ['English', 'Hindi', 'Kashmiri'],
