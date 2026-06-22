@@ -16,7 +16,7 @@ import { getSanityStudioUrl } from '@/lib/sanity/studio-url';
 export const revalidate = 60; // Revalidate every 60 seconds
 
 export const metadata: Metadata = {
-  title: 'Kashmir Travel Packages - Best Tour Packages for Jammu & Kashmir | Aleeza Travels',
+  title: 'Kashmir Travel Packages - Best Tour Packages for Jammu & Kashmir | Sadasangh Holidays',
   description: 'Browse our curated Kashmir travel packages. All-inclusive deals for Yusmarg, Lolab, Gurez, Gulmarg, Pahalgam, and more. Adventure tours, luxury getaways, and family-friendly Kashmir vacation packages. Best prices guaranteed.',
   keywords: [
     'Kashmir travel packages',
@@ -35,33 +35,33 @@ export const metadata: Metadata = {
     'Kashmir adventure tours',
     'best Kashmir tour operator',
   ],
-  authors: [{ name: 'Aleeza Travels' }],
-  creator: 'Aleeza Travels',
-  publisher: 'Aleeza Travels',
+  authors: [{ name: 'Sadasangh Holidays' }],
+  creator: 'Sadasangh Holidays',
+  publisher: 'Sadasangh Holidays',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://aleezatravels.com/packages',
-    siteName: 'Aleeza Travels',
-    title: 'Kashmir Travel Packages - Best Tour Packages | Aleeza Travels',
+    url: 'https://sadasanghholidays.com/packages',
+    siteName: 'Sadasangh Holidays',
+    title: 'Kashmir Travel Packages - Best Tour Packages | Sadasangh Holidays',
     description: 'Browse curated Kashmir travel packages. All-inclusive deals for Yusmarg, Lolab, Gurez, Gulmarg, and more. Best prices guaranteed.',
     images: [
       {
         url: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp',
         width: 1200,
         height: 630,
-        alt: 'Kashmir Travel Packages - Aleeza Travels',
+        alt: 'Kashmir Travel Packages - Sadasangh Holidays',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kashmir Travel Packages - Best Tour Packages | Aleeza Travels',
+    title: 'Kashmir Travel Packages - Best Tour Packages | Sadasangh Holidays',
     description: 'Browse curated Kashmir travel packages. All-inclusive deals with best prices guaranteed.',
     images: ['https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp'],
   },
   alternates: {
-    canonical: 'https://aleezatravels.com/packages',
+    canonical: 'https://sadasanghholidays.com/packages',
   },
   robots: {
     index: true,
@@ -97,7 +97,7 @@ export default async function Packages() {
     '@type': 'CollectionPage',
     name: 'Kashmir Travel Packages - Best Tour Packages for Jammu & Kashmir',
     description: 'Browse curated Kashmir travel packages. All-inclusive deals for Yusmarg, Lolab, Gurez, Gulmarg, Pahalgam, and more.',
-    url: 'https://aleezatravels.com/packages',
+    url: 'https://sadasanghholidays.com/packages',
     mainEntity: {
       '@type': 'ItemList',
       numberOfItems: packages.length,
@@ -108,7 +108,7 @@ export default async function Packages() {
           '@type': 'TouristTrip',
           name: pkg.title,
           duration: pkg.duration,
-          url: `https://aleezatravels.com/packages/${pkg.slug?.current || ''}`,
+          url: `https://sadasanghholidays.com/packages/${pkg.slug?.current || ''}`,
           offers: pkg.priceRange ? {
             '@type': 'Offer',
             priceCurrency: pkg.priceRange.currency || 'INR',

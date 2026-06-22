@@ -5,12 +5,12 @@ import ContactForm from './ContactForm';
 const contactPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
-  name: 'Contact Us - Kashmir Travel Agency | Aleeza Travels',
-  description: 'Contact Aleeza Travels - Kashmir\'s trusted travel agency. Available 24/7 for travel inquiries, custom packages, and bookings.',
-  url: 'https://aleezatravels.com/contact',
+  name: 'Contact Us - Kashmir Travel Agency | Sadasangh Holidays',
+  description: 'Contact Sadasangh Holidays - Kashmir\'s trusted travel agency. Available 24/7 for travel inquiries, custom packages, and bookings.',
+  url: 'https://sadasanghholidays.com/contact',
   mainEntity: {
     '@type': 'TravelAgency',
-    name: 'Aleeza Travels',
+    name: 'Sadasangh Holidays',
     telephone: '+919149792237',
     email: 'deltadawood963@gmail.com',
     address: {
@@ -30,11 +30,11 @@ const contactPageSchema = {
 };
 
 export const metadata: Metadata = {
-  title: 'Contact Us - Kashmir Travel Agency | Aleeza Travels | 24/7 Support',
-  description: 'Contact Aleeza Travels - Kashmir\'s trusted travel agency. Call +919149792237, email deltadawood963@gmail.com, or visit us in Dallake, Srinagar. Available 24/7 for travel inquiries, custom Kashmir packages, and bookings.',
+  title: 'Contact Us - Kashmir Travel Agency | Sadasangh Holidays | 24/7 Support',
+  description: 'Contact Sadasangh Holidays - Kashmir\'s trusted travel agency. Call +919149792237, email deltadawood963@gmail.com, or visit us in Dallake, Srinagar. Available 24/7 for travel inquiries, custom Kashmir packages, and bookings.',
   keywords: [
     'contact Kashmir travel agency',
-    'Aleeza Travels contact',
+    'Sadasangh Holidays contact',
     'Kashmir travel agent contact',
     'Srinagar travel agency',
     'book Kashmir tour',
@@ -44,33 +44,33 @@ export const metadata: Metadata = {
     'Kashmir travel booking',
     'Dallake Srinagar travel',
   ],
-  authors: [{ name: 'Aleeza Travels' }],
-  creator: 'Aleeza Travels',
-  publisher: 'Aleeza Travels',
+  authors: [{ name: 'Sadasangh Holidays' }],
+  creator: 'Sadasangh Holidays',
+  publisher: 'Sadasangh Holidays',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://aleezatravels.com/contact',
-    siteName: 'Aleeza Travels',
-    title: 'Contact Us - Kashmir Travel Agency | Aleeza Travels',
-    description: 'Contact Aleeza Travels - Kashmir\'s trusted travel agency. Available 24/7 for travel inquiries, custom packages, and bookings.',
+    url: 'https://sadasanghholidays.com/contact',
+    siteName: 'Sadasangh Holidays',
+    title: 'Contact Us - Kashmir Travel Agency | Sadasangh Holidays',
+    description: 'Contact Sadasangh Holidays - Kashmir\'s trusted travel agency. Available 24/7 for travel inquiries, custom packages, and bookings.',
     images: [
       {
         url: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp',
         width: 1200,
         height: 630,
-        alt: 'Contact Aleeza Travels - Kashmir Travel Agency',
+        alt: 'Contact Sadasangh Holidays - Kashmir Travel Agency',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Us - Kashmir Travel Agency | Aleeza Travels',
-    description: 'Contact Aleeza Travels - Kashmir\'s trusted travel agency. Available 24/7 for travel inquiries and bookings.',
+    title: 'Contact Us - Kashmir Travel Agency | Sadasangh Holidays',
+    description: 'Contact Sadasangh Holidays - Kashmir\'s trusted travel agency. Available 24/7 for travel inquiries and bookings.',
     images: ['https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp'],
   },
   alternates: {
-    canonical: 'https://aleezatravels.com/contact',
+    canonical: 'https://sadasanghholidays.com/contact',
   },
   robots: {
     index: true,
@@ -192,7 +192,7 @@ export default function Contact() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.instagram.com/aleezatravels.com20?igsh=d3l2M3NobDJ1dXVh"
+                    href="https://www.instagram.com/sadasanghholidays"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center text-white hover:from-purple-600 hover:to-pink-600 transition-colors"

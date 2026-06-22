@@ -84,14 +84,14 @@ We use **ISR with revalidation** instead of disabling caching completely. This p
 #### Example Metadata:
 ```typescript
 {
-  title: "Destination Name | Destinations | Aleeza Travels",
+  title: "Destination Name | Destinations | Sadasangh Holidays",
   description: "Detailed description...",
   keywords: ["destination", "Kashmir", "travel"],
   openGraph: {
-    title: "Destination Name | Aleeza Travels",
+    title: "Destination Name | Sadasangh Holidays",
     images: [{ url: "...", width: 1200, height: 630 }],
     type: "website",
-    url: "https://aleezatravels.com/destinations/..."
+    url: "https://sadasanghholidays.com/destinations/..."
   },
   twitter: {
     card: "summary_large_image",
@@ -99,7 +99,7 @@ We use **ISR with revalidation** instead of disabling caching completely. This p
     images: ["..."]
   },
   alternates: {
-    canonical: "https://aleezatravels.com/destinations/..."
+    canonical: "https://sadasanghholidays.com/destinations/..."
   }
 }
 ```

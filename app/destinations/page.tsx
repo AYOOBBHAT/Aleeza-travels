@@ -17,8 +17,8 @@ import { getSanityStudioUrl } from '@/lib/sanity/studio-url';
 export const revalidate = 60; // Revalidate every 60 seconds
 
 export const metadata: Metadata = {
-  title: 'Kashmir Destinations - Best Places to Visit in Jammu & Kashmir | Aleeza Travels',
-  description: 'Explore the best Kashmir destinations with Aleeza Travels. Discover Yusmarg, Lolab, Gurez, Gulmarg, Pahalgam, Sonamarg, and more beautiful places in Jammu and Kashmir. Expert travel guides and packages.',
+  title: 'Kashmir Destinations - Best Places to Visit in Jammu & Kashmir | Sadasangh Holidays',
+  description: 'Explore the best Kashmir destinations with Sadasangh Holidays. Discover Yusmarg, Lolab, Gurez, Gulmarg, Pahalgam, Sonamarg, and more beautiful places in Jammu and Kashmir. Expert travel guides and packages.',
   keywords: [
     'Kashmir destinations',
     'places to visit in Kashmir',
@@ -35,33 +35,33 @@ export const metadata: Metadata = {
     'Kashmir sightseeing',
     'Kashmir tourist spots',
   ],
-  authors: [{ name: 'Aleeza Travels' }],
-  creator: 'Aleeza Travels',
-  publisher: 'Aleeza Travels',
+  authors: [{ name: 'Sadasangh Holidays' }],
+  creator: 'Sadasangh Holidays',
+  publisher: 'Sadasangh Holidays',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://aleezatravels.com/destinations',
-    siteName: 'Aleeza Travels',
-    title: 'Kashmir Destinations - Best Places to Visit | Aleeza Travels',
+    url: 'https://sadasanghholidays.com/destinations',
+    siteName: 'Sadasangh Holidays',
+    title: 'Kashmir Destinations - Best Places to Visit | Sadasangh Holidays',
     description: 'Explore the best Kashmir destinations - Yusmarg, Lolab, Gurez, Gulmarg, Pahalgam, and more. Expert travel guides and packages.',
     images: [
       {
         url: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162518/nilnag-lake-yusmarg_ndo7wk.jpg',
         width: 1200,
         height: 630,
-        alt: 'Beautiful Kashmir Destinations - Aleeza Travels',
+        alt: 'Beautiful Kashmir Destinations - Sadasangh Holidays',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kashmir Destinations - Best Places to Visit | Aleeza Travels',
+    title: 'Kashmir Destinations - Best Places to Visit | Sadasangh Holidays',
     description: 'Explore the best Kashmir destinations with expert travel guides and packages.',
     images: ['https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162518/nilnag-lake-yusmarg_ndo7wk.jpg'],
   },
   alternates: {
-    canonical: 'https://aleezatravels.com/destinations',
+    canonical: 'https://sadasanghholidays.com/destinations',
   },
   robots: {
     index: true,
@@ -96,8 +96,8 @@ export default async function Destinations() {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Kashmir Destinations - Best Places to Visit in Jammu & Kashmir',
-    description: 'Explore the best Kashmir destinations with Aleeza Travels. Discover Yusmarg, Lolab, Gurez, Gulmarg, Pahalgam, Sonamarg, and more beautiful places in Jammu and Kashmir.',
-    url: 'https://aleezatravels.com/destinations',
+    description: 'Explore the best Kashmir destinations with Sadasangh Holidays. Discover Yusmarg, Lolab, Gurez, Gulmarg, Pahalgam, Sonamarg, and more beautiful places in Jammu and Kashmir.',
+    url: 'https://sadasanghholidays.com/destinations',
     mainEntity: {
       '@type': 'ItemList',
       numberOfItems: destinations.length,
@@ -108,7 +108,7 @@ export default async function Destinations() {
           '@type': 'TouristDestination',
           name: dest.title,
           description: dest.description,
-          url: `https://aleezatravels.com/destinations/${dest.slug?.current || ''}`,
+          url: `https://sadasanghholidays.com/destinations/${dest.slug?.current || ''}`,
         },
       })),
     },

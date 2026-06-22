@@ -1,11 +1,11 @@
 # Sanity CMS Integration Guide
 
-This document explains how to set up and use Sanity CMS with the Aleeza Travels Next.js project.
+This document explains how to set up and use Sanity CMS with the Sadasangh Holidays Next.js project.
 
 ## 📁 Folder Structure
 
 ```
-aleeza_travels/
+sadasangh_holidays/
 ├── sanity/                    # Sanity CMS configuration
 │   ├── sanity.config.ts       # Main Sanity Studio configuration
 │   ├── sanity.cli.ts          # CLI configuration
@@ -42,7 +42,7 @@ This will install:
 2. Sign in or create an account
 3. Click "Create new project"
 4. Fill in:
-   - Project name: `Aleeza Travels`
+   - Project name: `Sadasangh Holidays`
    - Organization: (select or create one)
 5. Copy your **Project ID** (you'll need this)
 

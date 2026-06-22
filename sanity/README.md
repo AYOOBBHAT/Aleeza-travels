@@ -1,6 +1,6 @@
 # Sanity CMS Setup
 
-This folder contains the Sanity CMS configuration for Aleeza Travels.
+This folder contains the Sanity CMS configuration for Sadasangh Holidays.
 
 ## Prerequisites
 

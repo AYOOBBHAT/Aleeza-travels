@@ -5,8 +5,8 @@ import { schemaTypes } from './schemas';
 import { projectId, dataset } from './studioEnv';
 
 export default defineConfig({
-  name: 'aleeza-travels',
-  title: 'Aleeza Travels CMS',
+  name: 'sadasangh-holidays',
+  title: 'Sadasangh Holidays CMS',
   
   projectId,
   dataset,

@@ -9,9 +9,9 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
+                <span className="text-white font-bold text-xl">S</span>
               </div>
-              <span className="text-xl font-bold text-white">Aleeza Travels</span>
+              <span className="text-xl font-bold text-white">Sadasangh Holidays</span>
             </div>
             <p className="text-sm mb-4 max-w-md">
               Your trusted travel partner for unforgettable journeys. We create amazing travel experiences 
@@ -30,7 +30,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://www.instagram.com/aleezatravels.com20?igsh=d3l2M3NobDJ1dXVh" 
+                href="https://www.instagram.com/sadasanghholidays" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-400 transition-colors" 
@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Aleeza Travels. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sadasangh Holidays. All rights reserved.</p>
         </div>
       </div>
     </footer>

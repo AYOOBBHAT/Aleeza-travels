@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next'
 
 export const metadata: Metadata = {
   title: 'Sanity Studio',
-  description: 'Sanity Studio for Aleeza Travels',
+  description: 'Sanity Studio for Sadasangh Holidays',
 }
 
 export const viewport: Viewport = {

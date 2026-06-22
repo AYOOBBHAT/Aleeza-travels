@@ -1,4 +1,4 @@
-# Sanity New Account Setup (Aleeza Travels)
+# Sanity New Account Setup (Sadasangh Holidays)
 
 Use this guide when you switch to a **new Sanity account** or create a **new Sanity project**.
 
@@ -8,13 +8,13 @@ Your current project ID in `.env.local` is: **`iuu5synt`**
 
 ## Why you might not see a Studio URL
 
-The hosted Studio URL (for example `https://aleeza.sanity.studio`) **does not exist until you deploy Studio** to that project.
+The hosted Studio URL (for example `https://sadasanghholidays.sanity.studio`) **does not exist until you deploy Studio** to that project.
 
 | What you want | URL | When it works |
 |---------------|-----|----------------|
 | Studio inside Next.js (local) | `http://localhost:3000/studio` | After `npm run dev` (development only) |
 | Standalone Studio (local) | `http://localhost:3333` | After `npm run sanity` |
-| Hosted Studio on Sanity | `https://aleeza.sanity.studio` | **Only after** `npm run sanity:deploy` |
+| Hosted Studio on Sanity | `https://sadasanghholidays.sanity.studio` | **Only after** `npm run sanity:deploy` |
 | Sanity project dashboard | `https://www.sanity.io/manage/project/iuu5synt` | After project is created |
 
 > **Note:** Embedded Studio at `/studio` is **disabled in production** on this site. For live editing, use the hosted Studio URL after deploy.
@@ -25,7 +25,7 @@ The hosted Studio URL (for example `https://aleeza.sanity.studio`) **does not ex
 
 1. Sign in at [https://www.sanity.io/manage](https://www.sanity.io/manage) with your **new account**.
 2. Click **Create project**.
-3. Name it (for example `Aleeza Travels`).
+3. Name it (for example `Sadasangh Holidays`).
 4. Copy the **Project ID** (yours: `iuu5synt`).
 5. Confirm a dataset named **`production`** exists (Sanity usually creates it by default).
 
@@ -94,8 +94,8 @@ Add these origins (with **Allow credentials** enabled):
 |--------|-----|
 | `http://localhost:3000` | Next.js dev + embedded Studio |
 | `http://localhost:3333` | Standalone Studio dev |
-| `https://aleezatravels.com` | Production site (if deployed) |
-| `https://www.aleezatravels.com` | Production site (if used) |
+| `https://sadasanghholidays.com` | Production site (if deployed) |
+| `https://www.sadasanghholidays.com` | Production site (if used) |
 
 Without CORS, Studio may load but fail to fetch data or show errors.
 
@@ -133,10 +133,10 @@ npm run sanity:deploy
 
 After a successful deploy you should see:
 
-- **Hosted Studio:** `https://aleeza.sanity.studio`  
-  (hostname is set in `sanity/sanity.cli.ts` as `studioHost: 'aleeza'`)
+- **Hosted Studio:** `https://sadasanghholidays.sanity.studio`  
+  (hostname is set in `sanity/sanity.cli.ts` as `studioHost: 'sadasanghholidays'`)
 
-If that hostname is taken on another account, change `studioHost` in `sanity/sanity.cli.ts` to something unique (for example `aleeza-travels-cms`) and deploy again.
+If that hostname is taken on another account, change `studioHost` in `sanity/sanity.cli.ts` to something unique (for example `sadasangh-holidays-cms`) and deploy again.
 
 You can also find the link in Sanity Manage → **Studios** for your project.
 
@@ -222,7 +222,7 @@ Do not edit `sanity/.env` manually — it is auto-generated.
 - [ ] `npx sanity login` with new account (inside `sanity/` folder)
 - [ ] CORS origins added for localhost and production domain
 - [ ] `npm run dev` → open `http://localhost:3000/studio`
-- [ ] `npm run sanity:deploy` → get `https://aleeza.sanity.studio`
+- [ ] `npm run sanity:deploy` → get `https://sadasanghholidays.sanity.studio`
 - [ ] Production host env vars updated and redeployed
 
 ---

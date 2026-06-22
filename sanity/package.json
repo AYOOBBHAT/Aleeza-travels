@@ -1,8 +1,8 @@
 {
-  "name": "aleeza-travels-studio",
+  "name": "sadasangh-holidays-studio",
   "version": "1.0.0",
   "private": true,
-  "description": "Sanity Studio for Aleeza Travels",
+  "description": "Sanity Studio for Sadasangh Holidays",
   "scripts": {
     "dev": "sanity dev",
     "build": "sanity build",

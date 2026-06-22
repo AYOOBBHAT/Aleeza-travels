@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = `Travel package: ${pkg.title} - ${pkg.duration}. Starting from ${currency}${price}. ${pkg.destinationsCovered?.map(d => d.title).join(', ') || ''}`;
 
   return {
-    title: `${pkg.title} | Travel Packages | Aleeza Travels`,
+    title: `${pkg.title} | Travel Packages | Sadasangh Holidays`,
     description,
     keywords: [
       pkg.title,
@@ -83,18 +83,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ...(pkg.destinationsCovered?.map(d => d.title) || []),
     ],
     openGraph: {
-      title: `${pkg.title} | Aleeza Travels`,
+      title: `${pkg.title} | Sadasangh Holidays`,
       description,
       type: 'website',
-      url: `https://aleezatravels.com/packages/${params.slug}`,
+      url: `https://sadasanghholidays.com/packages/${params.slug}`,
     },
     twitter: {
       card: 'summary',
-      title: `${pkg.title} | Aleeza Travels`,
+      title: `${pkg.title} | Sadasangh Holidays`,
       description,
     },
     alternates: {
-      canonical: `https://aleezatravels.com/packages/${params.slug}`,
+      canonical: `https://sadasanghholidays.com/packages/${params.slug}`,
     },
   };
 }

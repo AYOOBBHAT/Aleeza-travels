@@ -2,46 +2,46 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'About Us - Kashmir Travel Agency | Aleeza Travels',
-  description: 'Learn about Aleeza Travels - Kashmir\'s trusted travel agency based in Srinagar. Specializing in Jammu and Kashmir tours, travel packages, and personalized travel experiences. 24/7 customer support.',
+  title: 'About Us - Kashmir Travel Agency | Sadasangh Holidays',
+  description: 'Learn about Sadasangh Holidays - Kashmir\'s trusted travel agency based in Srinagar. Specializing in Jammu and Kashmir tours, travel packages, and personalized travel experiences. 24/7 customer support.',
   keywords: [
     'Kashmir travel agency',
     'Srinagar travel agent',
     'Jammu Kashmir tour operator',
-    'about Aleeza Travels',
+    'about Sadasangh Holidays',
     'Kashmir travel company',
     'local travel agency Kashmir',
     'Kashmir tourism company',
     'travel experts Kashmir',
     'Dallake Srinagar travel',
   ],
-  authors: [{ name: 'Aleeza Travels' }],
-  creator: 'Aleeza Travels',
-  publisher: 'Aleeza Travels',
+  authors: [{ name: 'Sadasangh Holidays' }],
+  creator: 'Sadasangh Holidays',
+  publisher: 'Sadasangh Holidays',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://aleezatravels.com/about',
-    siteName: 'Aleeza Travels',
-    title: 'About Us - Kashmir Travel Agency | Aleeza Travels',
-    description: 'Learn about Aleeza Travels - Kashmir\'s trusted travel agency. Specializing in Jammu and Kashmir tours with 24/7 support.',
+    url: 'https://sadasanghholidays.com/about',
+    siteName: 'Sadasangh Holidays',
+    title: 'About Us - Kashmir Travel Agency | Sadasangh Holidays',
+    description: 'Learn about Sadasangh Holidays - Kashmir\'s trusted travel agency. Specializing in Jammu and Kashmir tours with 24/7 support.',
     images: [
       {
         url: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp',
         width: 1200,
         height: 630,
-        alt: 'Aleeza Travels - Kashmir Travel Agency',
+        alt: 'Sadasangh Holidays - Kashmir Travel Agency',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About Us - Kashmir Travel Agency | Aleeza Travels',
-    description: 'Learn about Aleeza Travels - Kashmir\'s trusted travel agency specializing in Jammu and Kashmir tours.',
+    title: 'About Us - Kashmir Travel Agency | Sadasangh Holidays',
+    description: 'Learn about Sadasangh Holidays - Kashmir\'s trusted travel agency specializing in Jammu and Kashmir tours.',
     images: ['https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp'],
   },
   alternates: {
-    canonical: 'https://aleezatravels.com/about',
+    canonical: 'https://sadasanghholidays.com/about',
   },
   robots: {
     index: true,
@@ -107,10 +107,10 @@ export default function About() {
   const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'TravelAgency',
-    name: 'Aleeza Travels',
+    name: 'Sadasangh Holidays',
     description: 'Kashmir\'s trusted travel agency specializing in Jammu and Kashmir tours, travel packages, and personalized travel experiences.',
-    url: 'https://aleezatravels.com',
-    logo: 'https://aleezatravels.com/logo.png',
+    url: 'https://sadasanghholidays.com',
+    logo: 'https://sadasanghholidays.com/logo.png',
     image: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp',
     address: {
       '@type': 'PostalAddress',
@@ -158,7 +158,7 @@ export default function About() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Aleeza Travels</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Sadasangh Holidays</h1>
           <p className="text-xl text-white/90 max-w-2xl">
             Kashmir&apos;s trusted travel agency - Your partner for unforgettable journeys in Jammu and Kashmir
           </p>
@@ -173,7 +173,7 @@ export default function About() {
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Founded over 5 years ago, Aleeza Travels began with a simple mission: to showcase the breathtaking beauty
+                  Founded over 5 years ago, Sadasangh Holidays began with a simple mission: to showcase the breathtaking beauty
                   of Jammu and Kashmir to travelers from around the world. What started as a small local travel agency in
                   Srinagar has grown into a trusted name in Kashmir tourism.
                 </p>

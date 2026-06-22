@@ -38,7 +38,7 @@ openssl rand -base64 32
 You can use any string you want, but make it:
 - At least 32 characters long
 - Random and unpredictable
-- Example: `aleeza-travels-revalidate-2024-secret-key-xyz123`
+- Example: `sadasangh-holidays-revalidate-2024-secret-key-xyz123`
 
 ## How to Set It in Vercel
 
@@ -84,7 +84,7 @@ If you want instant revalidation when content is published in Sanity:
 
 ### Step 1: Get Your Vercel Deployment URL
 - Your production URL: `https://your-project.vercel.app`
-- Or your custom domain: `https://aleezatravels.com`
+- Or your custom domain: `https://sadasanghholidays.com`
 
 ### Step 2: Configure Sanity Webhook
 
@@ -120,19 +120,19 @@ If you want instant revalidation when content is published in Sanity:
 
 ### Revalidate Everything
 ```
-https://aleezatravels.com/api/revalidate?secret=YOUR_SECRET&type=all
+https://sadasanghholidays.com/api/revalidate?secret=YOUR_SECRET&type=all
 ```
 
 ### Revalidate Specific Type
 ```
-https://aleezatravels.com/api/revalidate?secret=YOUR_SECRET&type=destination
-https://aleezatravels.com/api/revalidate?secret=YOUR_SECRET&type=package
-https://aleezatravels.com/api/revalidate?secret=YOUR_SECRET&type=blog
+https://sadasanghholidays.com/api/revalidate?secret=YOUR_SECRET&type=destination
+https://sadasanghholidays.com/api/revalidate?secret=YOUR_SECRET&type=package
+https://sadasanghholidays.com/api/revalidate?secret=YOUR_SECRET&type=blog
 ```
 
 ### Revalidate Specific Page
 ```
-https://aleezatravels.com/api/revalidate?secret=YOUR_SECRET&type=destination&slug=gulmarg
+https://sadasanghholidays.com/api/revalidate?secret=YOUR_SECRET&type=destination&slug=gulmarg
 ```
 
 ## Security Best Practices

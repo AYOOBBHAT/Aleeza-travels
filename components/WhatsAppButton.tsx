@@ -1,7 +1,7 @@
 'use client';
 
 const WHATSAPP_NUMBER = '919149792237';
-const WHATSAPP_MESSAGE = 'Hello! I would like to know more about your travel packages.\n\n- Aleeza Travels';
+const WHATSAPP_MESSAGE = 'Hello! I would like to know more about your travel packages.\n\n- Sadasangh Holidays';
 
 export default function WhatsAppButton() {
   const handleClick = () => {

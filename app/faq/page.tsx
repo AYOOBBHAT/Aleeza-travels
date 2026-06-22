@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'FAQ - Kashmir Travel Questions | Aleeza Travels',
-  description: 'Find answers to common questions about Kashmir travel packages, bookings, destinations, cancellation policies, and more at Aleeza Travels. Your trusted Kashmir travel agency.',
+  title: 'FAQ - Kashmir Travel Questions | Sadasangh Holidays',
+  description: 'Find answers to common questions about Kashmir travel packages, bookings, destinations, cancellation policies, and more at Sadasangh Holidays. Your trusted Kashmir travel agency.',
   keywords: [
     'Kashmir travel FAQ',
     'travel questions Kashmir',
@@ -14,33 +14,33 @@ export const metadata: Metadata = {
     'Kashmir tour cancellation',
     'Kashmir travel booking help',
   ],
-  authors: [{ name: 'Aleeza Travels' }],
-  creator: 'Aleeza Travels',
-  publisher: 'Aleeza Travels',
+  authors: [{ name: 'Sadasangh Holidays' }],
+  creator: 'Sadasangh Holidays',
+  publisher: 'Sadasangh Holidays',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://aleezatravels.com/faq',
-    siteName: 'Aleeza Travels',
-    title: 'FAQ - Kashmir Travel Questions | Aleeza Travels',
+    url: 'https://sadasanghholidays.com/faq',
+    siteName: 'Sadasangh Holidays',
+    title: 'FAQ - Kashmir Travel Questions | Sadasangh Holidays',
     description: 'Find answers to common questions about Kashmir travel packages, bookings, and destinations.',
     images: [
       {
         url: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp',
         width: 1200,
         height: 630,
-        alt: 'FAQ - Aleeza Travels Kashmir Travel Agency',
+        alt: 'FAQ - Sadasangh Holidays Kashmir Travel Agency',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FAQ - Kashmir Travel Questions | Aleeza Travels',
+    title: 'FAQ - Kashmir Travel Questions | Sadasangh Holidays',
     description: 'Find answers to common questions about Kashmir travel packages and bookings.',
     images: ['https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp'],
   },
   alternates: {
-    canonical: 'https://aleezatravels.com/faq',
+    canonical: 'https://sadasanghholidays.com/faq',
   },
   robots: {
     index: true,

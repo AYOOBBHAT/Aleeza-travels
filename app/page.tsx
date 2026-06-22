@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Aleeza Travels - Best Travel Packages for Kashmir & Jammu | 24/7 Service',
-  description: 'Discover breathtaking destinations in Jammu and Kashmir with Aleeza Travels. Expert travel packages for Yusmarg, Lolab, Gurez, and more. Trusted travel partner with 24/7 support. Book your Kashmir adventure today!',
+  title: 'Sadasangh Holidays - Best Travel Packages for Kashmir & Jammu | 24/7 Service',
+  description: 'Discover breathtaking destinations in Jammu and Kashmir with Sadasangh Holidays. Expert travel packages for Yusmarg, Lolab, Gurez, and more. Trusted travel partner with 24/7 support. Book your Kashmir adventure today!',
   keywords: [
     'Kashmir travel',
     'Jammu and Kashmir tours',
@@ -20,33 +20,33 @@ export const metadata: Metadata = {
     'Kashmir destinations',
     'travel packages Jammu Kashmir',
   ],
-  authors: [{ name: 'Aleeza Travels' }],
-  creator: 'Aleeza Travels',
-  publisher: 'Aleeza Travels',
+  authors: [{ name: 'Sadasangh Holidays' }],
+  creator: 'Sadasangh Holidays',
+  publisher: 'Sadasangh Holidays',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://aleezatravels.com',
-    siteName: 'Aleeza Travels',
-    title: 'Aleeza Travels - Best Travel Packages for Kashmir & Jammu',
+    url: 'https://sadasanghholidays.com',
+    siteName: 'Sadasangh Holidays',
+    title: 'Sadasangh Holidays - Best Travel Packages for Kashmir & Jammu',
     description: 'Discover breathtaking destinations in Jammu and Kashmir. Expert travel packages with 24/7 support. Book your Kashmir adventure today!',
     images: [
       {
         url: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp',
         width: 1200,
         height: 630,
-        alt: 'Beautiful Kashmir Landscape - Aleeza Travels',
+        alt: 'Beautiful Kashmir Landscape - Sadasangh Holidays',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Aleeza Travels - Best Travel Packages for Kashmir & Jammu',
+    title: 'Sadasangh Holidays - Best Travel Packages for Kashmir & Jammu',
     description: 'Discover breathtaking destinations in Jammu and Kashmir. Expert travel packages with 24/7 support.',
     images: ['https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp'],
   },
   alternates: {
-    canonical: 'https://aleezatravels.com',
+    canonical: 'https://sadasanghholidays.com',
   },
   robots: {
     index: true,
@@ -66,10 +66,10 @@ export default function Home() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'TravelAgency',
-    name: 'Aleeza Travels',
+    name: 'Sadasangh Holidays',
     description: 'Your trusted travel partner for unforgettable journeys in Jammu and Kashmir',
-    url: 'https://aleezatravels.com',
-    logo: 'https://aleezatravels.com/logo.png',
+    url: 'https://sadasanghholidays.com',
+    logo: 'https://sadasanghholidays.com/logo.png',
     image: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp',
     address: {
       '@type': 'PostalAddress',
@@ -96,11 +96,11 @@ export default function Home() {
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Aleeza Travels',
-    url: 'https://aleezatravels.com',
+    name: 'Sadasangh Holidays',
+    url: 'https://sadasanghholidays.com',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://aleezatravels.com/destinations?search={search_term_string}',
+      target: 'https://sadasanghholidays.com/destinations?search={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };
@@ -124,7 +124,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp"
-            alt="Beautiful Kashmir landscape with brown chinar trees in Chatpal - Aleeza Travels destination"
+            alt="Beautiful Kashmir landscape with brown chinar trees in Chatpal - Sadasangh Holidays destination"
             fill
             className="object-cover"
             priority
@@ -138,7 +138,7 @@ export default function Home() {
             Discover Your Next Adventure in Kashmir
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8">
-            Explore the breathtaking beauty of Jammu and Kashmir with Aleeza Travels - Your trusted travel partner for unforgettable journeys. Expert travel packages for Yusmarg, Lolab, Gurez, and more stunning destinations.
+            Explore the breathtaking beauty of Jammu and Kashmir with Sadasangh Holidays - Your trusted travel partner for unforgettable journeys. Expert travel packages for Yusmarg, Lolab, Gurez, and more stunning destinations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -163,7 +163,7 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50" aria-labelledby="why-choose-us">
         <div className="max-w-7xl mx-auto">
           <h2 id="why-choose-us" className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-            Why Choose Aleeza Travels for Your Kashmir Adventure
+            Why Choose Sadasangh Holidays for Your Kashmir Adventure
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
             With years of experience in organizing memorable travel experiences across Jammu and Kashmir, we offer trusted service, competitive pricing, and access to the most beautiful destinations in the region.
@@ -244,7 +244,7 @@ export default function Home() {
               >
                 <Image
                   src={destination.image}
-                  alt={`${destination.name} - ${destination.description} - Aleeza Travels destination`}
+                  alt={`${destination.name} - ${destination.description} - Sadasangh Holidays destination`}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-300"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -276,12 +276,12 @@ export default function Home() {
             Ready to Start Your Kashmir Journey?
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Contact Aleeza Travels today and let our expert team help you plan your perfect trip to Jammu and Kashmir. Available 24/7 for your convenience.
+            Contact Sadasangh Holidays today and let our expert team help you plan your perfect trip to Jammu and Kashmir. Available 24/7 for your convenience.
           </p>
           <Link
             href="/contact"
             className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-            aria-label="Contact Aleeza Travels for travel packages"
+            aria-label="Contact Sadasangh Holidays for travel packages"
           >
             Get in Touch
           </Link>

@@ -30,7 +30,7 @@ export default function ContactForm() {
 ${formData.message}
 
 ---
-Sent from Aleeza Travels Website`;
+Sent from Sadasangh Holidays Website`;
 
     // Encode the message for URL
     const encodedMessage = encodeURIComponent(whatsappMessage);

@@ -70,7 +70,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description = destination.description || `Explore ${destination.title} - ${destination.bestSeason || 'year-round'} destination.`;
 
   return {
-    title: `${destination.title} | Destinations | Aleeza Travels`,
+    title: `${destination.title} | Destinations | Sadasangh Holidays`,
     description,
     keywords: [
       destination.title,
@@ -80,20 +80,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       'tourist attractions',
     ],
     openGraph: {
-      title: `${destination.title} | Aleeza Travels`,
+      title: `${destination.title} | Sadasangh Holidays`,
       description,
       images: imageUrl ? [{ url: imageUrl, width: 1200, height: 630 }] : [],
       type: 'website',
-      url: `https://aleezatravels.com/destinations/${params.slug}`,
+      url: `https://sadasanghholidays.com/destinations/${params.slug}`,
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${destination.title} | Aleeza Travels`,
+      title: `${destination.title} | Sadasangh Holidays`,
       description,
       images: imageUrl ? [imageUrl] : [],
     },
     alternates: {
-      canonical: `https://aleezatravels.com/destinations/${params.slug}`,
+      canonical: `https://sadasanghholidays.com/destinations/${params.slug}`,
     },
   };
 }
