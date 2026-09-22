@@ -1,6 +1,7 @@
-import { redirect } from 'next/navigation';
-import { getSanityStudioUrl } from '@/lib/sanity/studio-url';
+import StudioClient from '../StudioClient'
+
+export const dynamic = 'force-static'
 
 export default function StudioPage() {
-  redirect(getSanityStudioUrl());
+  return <StudioClient />
 }
