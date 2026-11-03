@@ -17,6 +17,31 @@ export default function Footer() {
               Your trusted travel partner for unforgettable journeys. We create amazing travel experiences 
               that you&apos;ll cherish forever.
             </p>
+            <ul className="space-y-2 text-sm mb-4">
+              <li>
+                <a href="tel:+918899470609" className="hover:text-blue-400 transition-colors">
+                  Phone: +91 8899470609
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/918899470609"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-green-400 transition-colors"
+                >
+                  WhatsApp: +91 8899470609
+                </a>
+              </li>
+              <li>
+                <a href="mailto:sadasangholidays@gmail.com" className="hover:text-blue-400 transition-colors">
+                  sadasangholidays@gmail.com
+                </a>
+              </li>
+              <li className="max-w-xs">
+                Habbak Naseembagh, Srinagar, opposite Kashmir Harvard Public School, PIN 190006
+              </li>
+            </ul>
             <div className="flex space-x-4">
               <a 
                 href="https://wa.me/918899470609" 

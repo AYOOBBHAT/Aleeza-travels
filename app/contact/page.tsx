@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import ContactForm from './ContactForm';
 
 // Structured Data for SEO
@@ -12,14 +13,14 @@ const contactPageSchema = {
     '@type': 'TravelAgency',
     name: 'Sadasangh Holidays',
     telephone: '+918899470609',
-    email: 'deltadawood963@gmail.com',
+    email: 'sadasangholidays@gmail.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Dallake',
+      streetAddress: 'Habbak Naseembagh, opposite Kashmir Harvard Public School',
       addressLocality: 'Srinagar',
       addressRegion: 'Jammu and Kashmir',
       addressCountry: 'IN',
-      postalCode: '190001',
+      postalCode: '190006',
     },
     openingHours: 'Mo-Su 00:00-23:59',
     areaServed: {
@@ -31,7 +32,7 @@ const contactPageSchema = {
 
 export const metadata: Metadata = {
   title: 'Contact Us - Kashmir Travel Agency | Sadasangh Holidays | 24/7 Support',
-  description: 'Contact Sadasangh Holidays - Kashmir\'s trusted travel agency. Call +918899470609, email deltadawood963@gmail.com, or visit us in Dallake, Srinagar. Available 24/7 for travel inquiries, custom Kashmir packages, and bookings.',
+  description: 'Contact Sadasangh Holidays - Kashmir\'s trusted travel agency. Call +91 8899470609, email sadasangholidays@gmail.com, or visit us at Habbak Naseembagh, Srinagar, opposite Kashmir Harvard Public School, PIN 190006. Available 24/7 for travel inquiries, custom Kashmir packages, and bookings.',
   keywords: [
     'contact Kashmir travel agency',
     'Sadasangh Holidays contact',
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     'travel consultation Kashmir',
     'custom Kashmir packages',
     'Kashmir travel booking',
-    'Dallake Srinagar travel',
+    'Habbak Naseembagh Srinagar travel',
   ],
   authors: [{ name: 'Sadasangh Holidays' }],
   creator: 'Sadasangh Holidays',
@@ -85,10 +86,11 @@ export const metadata: Metadata = {
   },
 };
 
-const contactInfo = [
+const contactInfo: { title: string; content: string; href?: string; icon: ReactNode }[] = [
   {
     title: 'Phone',
-    content: '+918899470609',
+    content: '+91 8899470609',
+    href: 'tel:+918899470609',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -97,7 +99,8 @@ const contactInfo = [
   },
   {
     title: 'Email',
-    content: 'deltadawood963@gmail.com',
+    content: 'sadasangholidays@gmail.com',
+    href: 'mailto:sadasangholidays@gmail.com',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -105,8 +108,18 @@ const contactInfo = [
     ),
   },
   {
+    title: 'WhatsApp',
+    content: '+91 8899470609',
+    href: 'https://wa.me/918899470609',
+    icon: (
+      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-1.866-2.03-2.272-.272-.406-.47-.612-.653-.612-.183 0-.272.045-.408.149-.136.105-.588.612-.721.785-.133.174-.272.224-.497.149-.225-.075-.95-.35-1.81-1.115-.67-.597-1.123-1.333-1.255-1.558-.133-.224-.015-.345.1-.47.105-.124.225-.298.337-.448.112-.149.15-.224.225-.374.075-.149.038-.298-.037-.448-.075-.149-.653-1.576-.894-2.16-.24-.583-.487-.504-.653-.51-.166-.006-.36-.01-.555-.01-.196 0-.51.075-.765.375-.255.3-.975.975-.975 2.38 0 1.405 1.02 2.76 1.16 2.95.14.19 2.01 3.06 4.87 4.29.68.29 1.21.46 1.62.59.82.26 1.57.22 2.17.14.6-.08 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.08-.13-.298-.2-.595-.35zM12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22.5c-5.79 0-10.5-4.71-10.5-10.5S6.21 1.5 12 1.5 22.5 6.21 22.5 12 17.79 22.5 12 22.5z" />
+      </svg>
+    ),
+  },
+  {
     title: 'Address',
-    content: 'Dallake Srinagar, Jammu and Kashmir',
+    content: 'Habbak Naseembagh, Srinagar, opposite Kashmir Harvard Public School, PIN 190006',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -170,7 +183,17 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">{info.title}</h3>
-                      <p className="text-gray-600">{info.content}</p>
+                      {info.href ? (
+                        <a
+                          href={info.href}
+                          className="text-gray-600 hover:text-blue-600 transition-colors"
+                          {...(info.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                        >
+                          {info.content}
+                        </a>
+                      ) : (
+                        <p className="text-gray-600">{info.content}</p>
+                      )}
                     </div>
                   </div>
                 ))}

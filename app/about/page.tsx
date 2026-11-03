@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'local travel agency Kashmir',
     'Kashmir tourism company',
     'travel experts Kashmir',
-    'Dallake Srinagar travel',
+    'Habbak Naseembagh Srinagar travel',
   ],
   authors: [{ name: 'Sadasangh Holidays' }],
   creator: 'Sadasangh Holidays',
@@ -114,14 +114,14 @@ export default function About() {
     image: 'https://res.cloudinary.com/de7qtzp1b/image/upload/v1767162472/Chatpal-Kashmir_brown_chinar_kashmir_cfzjvf.webp',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Dallake',
+      streetAddress: 'Habbak Naseembagh, opposite Kashmir Harvard Public School',
       addressLocality: 'Srinagar',
       addressRegion: 'Jammu and Kashmir',
       addressCountry: 'IN',
-      postalCode: '190001',
+      postalCode: '190006',
     },
     telephone: '+918899470609',
-    email: 'deltadawood963@gmail.com',
+    email: 'sadasangholidays@gmail.com',
     openingHours: 'Mo-Su 00:00-23:59',
     priceRange: '$$',
     areaServed: {
@@ -178,7 +178,7 @@ export default function About() {
                   Srinagar has grown into a trusted name in Kashmir tourism.
                 </p>
                 <p>
-                  Based in Dallake, Srinagar, we have deep-rooted knowledge of Kashmir&apos;s hidden gems - from the serene
+                  Based in Habbak Naseembagh, Srinagar, opposite Kashmir Harvard Public School, we have deep-rooted knowledge of Kashmir&apos;s hidden gems - from the serene
                   valleys of Yusmarg and Lolab to the pristine landscapes of Gurez. We believe that travel has the power to
                   transform lives, broaden perspectives, and create lasting memories. That&apos;s why we&apos;re committed to
                   crafting personalized Kashmir travel experiences that exceed expectations.
